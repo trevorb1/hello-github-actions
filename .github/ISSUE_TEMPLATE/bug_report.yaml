@@ -53,18 +53,6 @@ body:
   validations:
     required: false
 
-- type: dropdown
-  attributes:
-    label: Have you checked the conda environemnt? 
-    description: See install instructions for how to install the osemosys-global conda environment.
-    options:
-      - Homebrew
-      - MacPorts
-      - apt-get
-      - Built from source
-  validations:
-    required: true
-
  - type: textarea
     attributes:
       label: Relevant log output
