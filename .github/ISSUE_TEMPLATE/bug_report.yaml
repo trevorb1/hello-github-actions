@@ -3,10 +3,19 @@ description: File a bug/issue
 title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
 body:
+
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
     description: Please search to see if an issue already exists for the bug you encountered.
     options:
     - label: I have searched the existing issues
+      required: true
+
+- type: checkboxes
+  attributes:
+    label: Conda environment check
+    description: See install instructions for how to install the osemosys-global conda environment.
+    options:
+    - label: I have tried using the osemosys-global conda environment. 
       required: true
