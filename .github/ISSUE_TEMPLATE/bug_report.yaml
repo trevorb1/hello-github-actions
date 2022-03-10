@@ -33,3 +33,13 @@ body:
     description: A concise description of what you expected to happen.
   validations:
     required: false
+
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: How do you trigger this bug? Please walk us through it step by step.
+    placeholder: |
+      1. Running this command...
+      2. Produces this result...
+  validations:
+    required: false
