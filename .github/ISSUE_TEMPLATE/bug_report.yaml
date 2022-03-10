@@ -51,3 +51,10 @@ body:
     placeholder: Ubuntu 20.04, Windows 11, macOS 10.14
   validations:
     required: false
+
+ - type: textarea
+    attributes:
+      label: Relevant log output
+      description: If applicable, please provide relevant log output.
+      render: shell
+      required: false
