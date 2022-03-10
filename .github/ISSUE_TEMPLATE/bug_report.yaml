@@ -1,10 +1,8 @@
-name: Bug Report
+name: Bug
 description: File a bug/issue
-title: "[BUG]: "
-labels: ["bug"]
-
+title: "[BUG] <title>"
+labels: [Bug, Needs Triage]
 body:
-
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
@@ -12,54 +10,44 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-      
-- type: checkboxes
-  attributes:
-    label: Conda environment check
-    description: See install instructions for how to install the osemosys-global conda environment.
-    options:
-    - label: I have tried using the osemosys-global conda environment. 
-      required: true
-
 - type: textarea
   attributes:
     label: Current Behavior
     description: A concise description of what you're experiencing.
   validations:
     required: false
-
 - type: textarea
   attributes:
     label: Expected Behavior
     description: A concise description of what you expected to happen.
   validations:
     required: false
-
 - type: textarea
   attributes:
     label: Steps To Reproduce
-    description: How do you trigger this bug? Please walk us through it step by step.
+    description: Steps to reproduce the behavior.
     placeholder: |
-      1. Running this command...
-      2. Produces this result...
+      1. In this environment...
+      2. With this config...
+      3. Run '...'
+      4. See error...
   validations:
     required: false
-
-- type: input
+- type: textarea
   attributes:
-    label: Operating System 
-    description: Provide operating system and version 
-    placeholder: Ubuntu 20.04, Windows 11, macOS 10.14
+    label: Environment
+    description: |
+      examples:
+        - **OS**: Ubuntu 20.04
+        - **Node**: 13.14.0
+        - **npm**: 7.6.3
+    value: |
+        - OS:
+        - Node:
+        - npm:
+    render: markdown
   validations:
     required: false
-
- - type: textarea
-    attributes:
-      label: Relevant log output
-      description: If applicable, please provide relevant log output.
-      render: shell
-      required: false
-
 - type: textarea
   attributes:
     label: Anything else?
