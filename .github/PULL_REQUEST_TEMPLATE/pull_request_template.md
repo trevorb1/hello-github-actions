@@ -1,6 +1,6 @@
 <!--- Provide a short description of the changes in the Title -->
 
-## Describe Your Change
+## Describe the Change
 <!--- Describe your changes in detail -->
 
 ## Type of Change
