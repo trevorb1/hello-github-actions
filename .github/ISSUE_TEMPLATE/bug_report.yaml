@@ -52,14 +52,6 @@ body:
   validations:
     required: false
 
- - type: textarea
-   attributes:
-     label: Log output
-     description: If applicable, please provide relevant log output.
-     render: shell
-   validations:
-     required: false
-
 - type: textarea
   attributes:
     label: Anything else?
