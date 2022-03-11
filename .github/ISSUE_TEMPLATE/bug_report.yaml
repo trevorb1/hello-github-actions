@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug/issue
+description: Issues relating to code/workflow errors
 title: "[BUG] <Title of Bug>"
 labels: "bug"
 body:
