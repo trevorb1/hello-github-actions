@@ -35,8 +35,7 @@ body:
     label: Issue
     description: Detailed description the issue with the data.
     placeholder: |
-      ie. A new dataset for nucelar power plant capital costs has been 
-      released for North America. 
+      ie. A new dataset for nucelar power plant capital costs has been released for North America. 
   validations:
     required: true
 
@@ -51,6 +50,6 @@ body:
   attributes:
     label: Additional Info
     description: |
-      Please provide any additional information or resources that will help us implement the idea. 
+      Please provide any additional information or resources that will help us correct/update the data. 
   validations:
     required: false
