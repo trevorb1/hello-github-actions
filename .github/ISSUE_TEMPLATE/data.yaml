@@ -39,7 +39,7 @@ body:
   validations:
     required: true
 
-- type: textarea
+- type: input
   attributes:
     label: Suggested Data Source
     description: Do you have a source for new data? Please include the URL. 
