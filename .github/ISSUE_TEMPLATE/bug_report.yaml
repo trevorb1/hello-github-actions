@@ -48,7 +48,7 @@ body:
   attributes:
     label: Operating System 
     description: Provide operating system and version 
-    placeholder: Ubuntu 20.04, Windows 11, macOS 10.14
+    placeholder: ex. Ubuntu 20.04, Windows 11, macOS 10.14
   validations:
     required: false
 
