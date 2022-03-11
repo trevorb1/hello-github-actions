@@ -11,7 +11,17 @@ body:
     placeholder: "ie. Capital costs for nuclear power plants"
   validations:
     required: true
-
+    
+- type: dropdown
+  attributes:
+    label: Type of data issue. 
+    options:
+      - Missing Data 
+      - Incorect Data
+      - Unit Error
+  validations:
+    required: true
+    
 - type: input
   attributes:
     label: Does the data in question have an existing issue?
@@ -25,14 +35,15 @@ body:
     label: Issue
     description: Detailed description the issue with the data.
     placeholder: |
-      "No capital costs for nuclear power plants exist in the file `weo_2018_powerplant_costs.csv`"
+      ie. A new dataset for nucelar power plant capital costs has been 
+      released for North America. 
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: Suggested Source
-    description: Do you have an source for the data? Please include the URL. 
+    label: Suggested Data Source
+    description: Do you have a source for new data? Please include the URL. 
   validations:
     required: false
 
