@@ -15,7 +15,7 @@ body:
   attributes:
     label: Is your feature related to a bug?
     description: Refer to a an existing bug, you can use `#bugid`
-    placeholder: #bugid 10
+    placeholder: "#bugid 10"
   validations:
     required: false
 
